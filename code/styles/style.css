@@ -1,0 +1,48 @@
+:root{
+    --blue: #1877f2;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    color: var(--blue);
+}
+h2{
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+/* buttons */
+button{
+    transition-duration: 0.5s;
+    border: 3px solid var(--blue);
+    color: black;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+}
+button:hover{
+    background-color: var(--blue);
+    color: white;
+}
+
+#result{
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+/* Drop down lists */
+#administration{
+    background-color: white;
+    font-size: 12px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid var(--blue);
+}
+option{
+    font-size: 12px;
+}
+
+
